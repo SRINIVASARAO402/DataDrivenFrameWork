@@ -18,7 +18,7 @@ test.describe("Test Scenario on Adding one Employee",()=>
             test("Test Case to Add one Employee",async()=>
             {
                 await page.locator("//input[@type='text']").fill("playwright");
-                await page.waitForTimeOut(500);
+                // await page.waitForTimeOut(500);
                 await page.locator("//input[@type='password']").fill("playwright");
                 await page.waitForTimeout(500);
                 await page.locator("//input[@type='Submit']").click();

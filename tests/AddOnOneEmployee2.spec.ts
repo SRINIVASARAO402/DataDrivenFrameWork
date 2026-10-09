@@ -58,7 +58,7 @@ test.describe("Test Scenario on Adding one Employee",()=>
                 await page.frameLocator(Jsondata.XFRAME).locator(Jsondata.XNICK).fill("Don");
                 await page.waitForTimeout(500);
 
-                await page.frameLocator(Jsondata.XFRAME).locator(Jsondata.XPHOTO).setInputFiles("./EmpPhotos/EMP1.png")
+                await page.frameLocator(Jsondata.XFRAME).locator(Jsondata.XPHOTO).setInputFiles("./EmpPhotos/Albert.png")
                 await page.waitForTimeout(500);
 
                 await page.frameLocator(Jsondata.XFRAME).locator(Jsondata.XSAVE).click();
